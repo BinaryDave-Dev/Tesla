@@ -11,7 +11,7 @@
 
     
     
-
+    
 
 
 .banner-wrap {
@@ -78,8 +78,9 @@ nav {
 }
 
 
-
-
+.right-nav-icons {
+    gap: 6px;
+}
 
 .right-nav-icons img {
     display: block;
@@ -91,7 +92,7 @@ nav {
 }
 
 .right-nav-icons img:hover {
-    padding: 4px;
+    padding: 8px;
     border-radius: 4px;
     background-color: #f0f0f0;
 }
@@ -165,6 +166,6 @@ h1 {
     cursor: pointer;
     transition: background-color 0.3s ease;
     &:hover {
-        background-color: #eee
+        background-color: #eee;
     }
 }
