@@ -32,15 +32,16 @@ nav {
 }
 
 .logo {
+    background-image: url(./assets/ASTLE.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
     width: 120px;
-    color: black;
+    height: 32px;
+    margin-top: 10px;
 }
 
-.logo svg {
-    display: block;
-    width: 100%;
-    height: auto;
-}
+
 
 
 
