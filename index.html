@@ -70,13 +70,13 @@
 
     <!-- Banner Section -->
 
-    <div class="banner-wrap">
+    <section class="banner-wrap">
 
 
         
         <!-- Model 3 Section -->
 
-        <main id="model-3-main">
+        <div id="model-3-main">
 
     
             <div id="model-3-title">
@@ -97,15 +97,36 @@
     
             </div>
 
+            
+        </div>
 
-        
-        </main>
+        <!-- Banner Arrow Buttons -->
+
+        <div class="banner-arrow-buttons">
+            <button class="arrow-button-left">
+                <svg class="tds-icon tds-icon-chevron-270" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path fill="currentColor" d="m15.057 19.78-7.213-7.232a.75.75 0 0 1 0-1.06l7.25-7.268a.75.75 0 0 1 1.062 1.06l-6.721 6.739 6.684 6.701a.75.75 0 0 1-1.062 1.06"></path>
+                </svg>
+            </button>
+            <button class="arrow-button-right">
+                <svg class="tds-icon tds-icon-chevron-90" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" d="m8.943 19.78 7.213-7.232a.75.75 0 0 0 0-1.06L8.906 4.22a.75.75 0 0 0-1.062 1.06l6.721 6.739-6.684 6.701a.75.75 0 0 0 1.062 1.06"></path></svg>
+            </button>
+        </div>
+
+        <!-- Banner Indicator Buttons -->
+
+        <div class="indicator-buttons">
+
+            <div class="indicator-button-main-container"></div>
+                <button class="indicator-button-main-1"></button>
+                <button class="indicator-button-main-2"></button>
+                <button class="indicator-button-main-3"></button>
+            </div>
+
+        </div>
 
 
-        
-    </div>
-
-
+    </section>
     <!-- Cards Section -->
 
     <section class="cards">
@@ -117,45 +138,80 @@
 
 
 
-            <div class="model-3-card">
-                <h4>Sport Sedan</h4>
-                <h2>Model 3</h2>
-                <p class="model-3-loan-deal"><a href="https://www.tesla.com/model3/design?id=finplat.AUTO_LOAN%3ALOAN%3ACT_PRIVATE#overview">0.99% APR Available</a></p>
-                <button class="order-now-model-3"><a href="https://www.tesla.com/model3/design#overview">Order Now</a></button>
-                <button class="view-inventory-model-3"><a href="https://www.tesla.com/model3">View Inventory</a></button>
+            <div class="model-card model-3-card">
+                <h4 class="card-subtitle">Sport Sedan</h4>
+                <div class="card-bottom">
+                    <h2>Model 3</h2>
+                    <p class="card-deal"><a href="https://www.tesla.com/model3/design?id=finplat.AUTO_LOAN%3ALOAN%3ACT_PRIVATE#overview">Lease From $299/mo</a></p>
+                    <div class="card-buttons">
+                        <a class="btn btn-primary" href="https://www.tesla.com/model3/design#overview">Order Now</a>
+                        <a class="btn btn-secondary" href="https://www.tesla.com/model3">Learn More</a>
+                    </div>
+                </div>
             </div>
 
-                <div class="model-y-card">
-                <h4>Midsize SUV</h4>
-                <h2>Model Y</h2>
-                <p class="model-y-lease-deal"><a href="https://www.tesla.com/modely/design?id=finplat.AUTO_LEASE:OPERATIONAL_LEASE:CT_PRIVATE#overview">Lease from $459/mo</a></p>
-                <button class="order-now-model-y"><a href="https://www.tesla.com/modely/design#overview">Order Now</a></button>
-                <button class="view-inventory-model-y"><a href="https://www.tesla.com/modely">View Inventory</a></button>
+            <div class="model-card model-y-card">
+                <h4 class="card-subtitle">Midsize SUV</h4>
+                <div class="card-bottom">
+                    <h2>Model Y</h2>
+                    <p class="card-deal"><a href="https://www.tesla.com/modely/design?id=finplat.AUTO_LEASE:OPERATIONAL_LEASE:CT_PRIVATE#overview">Lease From $459/mo</a></p>
+                    <div class="card-buttons">
+                        <a class="btn btn-primary" href="https://www.tesla.com/modely/design#overview">Order Now</a>
+                        <a class="btn btn-secondary" href="https://www.tesla.com/modely">Learn More</a>
+                    </div>
+                </div>
             </div>
 
-            <div class="model-s-card">
-                <h4>Luxury SUV</h4>
-                <h2>Model S</h2>
-                <button class="order-now-model-s"><a href="https://www.tesla.com/models/design#overview">Order Now</a></button>
-                <button class="view-inventory-model-s"><a href="https://www.tesla.com/models">View Inventory</a></button>
+            <div class="model-card model-s-card">
+                <h4 class="card-subtitle">Luxury Sedan</h4>
+                <div class="card-bottom">
+                    <h2>Model S</h2>
+                    <p class="card-deal"><a href="https://www.tesla.com/models/design?id=finplat.AUTO_LEASE:OPERATIONAL_LEASE:CT_PRIVATE#overview">Lease From $459/mo</a></p>
+                    <div class="card-buttons">
+                        <a class="btn btn-primary" href="https://www.tesla.com/models/design#overview">Order Now</a>
+                        <a class="btn btn-secondary" href="https://www.tesla.com/models">Learn More</a>
+                    </div>
+                </div>
             </div>
 
-            <div class="model-x-card">
-                <h4>Luxury SUV</h4>
-                <h2>Model X</h2>
-                <button class="order-now-model-x"><a href="https://www.tesla.com/modelx/design#overview">Order Now</a></button>
-                <button class="view-inventory-model-x"><a href="https://www.tesla.com/modelx">View Inventory</a></button>
+            <div class="model-card model-x-card">
+                <h4 class="card-subtitle">Luxury SUV</h4>
+                <div class="card-bottom">
+                    <h2>Model X</h2>
+                    <p class="card-deal"><a href="https://www.tesla.com/modelx/design?id=finplat.AUTO_LEASE:OPERATIONAL_LEASE:CT_PRIVATE#overview">Lease From $459/mo</a></p>
+                    <div class="card-buttons">
+                        <a class="btn btn-primary" href="https://www.tesla.com/modelx/design#overview">Order Now</a>
+                        <a class="btn btn-secondary" href="https://www.tesla.com/modelx">Learn More</a>
+                    </div>
+                </div>
             </div>
 
-            <div class="cybertruck-card">
-                <h4>Utility Truck</h4>
-                <h2>Cybertruck</h2>
-                <button class="order-now-cybertruck"><a href="https://www.tesla.com/cybertruck/design#overview">Order Now</a></button>
-                <button class="view-inventory-cybertruck"><a href="https://www.tesla.com/cybertruck">View Inventory</a></button>
-
+            <div class="model-card cybertruck-card">
+                <h4 class="card-subtitle">Utility Truck</h4>
+                <div class="card-bottom">
+                    <h2>Cybertruck</h2>
+                    <p class="card-deal"><a href="https://www.tesla.com/cybertruck/design?id=finplat.AUTO_LEASE:OPERATIONAL_LEASE:CT_PRIVATE#overview">Lease From $459/mo</a></p>
+                    <div class="card-buttons">
+                        <a class="btn btn-primary" href="https://www.tesla.com/cybertruck/design#overview">Order Now</a>
+                        <a class="btn btn-secondary" href="https://www.tesla.com/cybertruck">Learn More</a>
+                    </div>
+                </div>
             </div>
 
+        </div>
 
+        <div class="cards-arrow-buttons">
+            <button class="arrow-button-cards-right">
+                <svg class="tds-icon tds-icon-chevron-90" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" d="m8.943 19.78 7.213-7.232a.75.75 0 0 0 0-1.06L8.906 4.22a.75.75 0 0 0-1.062 1.06l6.721 6.739-6.684 6.701a.75.75 0 0 0 1.062 1.06"></path></svg>
+            </button>
+        </div>
+
+        <div class="indicator-buttons-cards">
+            <button class="indicator-button-cards-1"></button>
+            <button class="indicator-button-cards-2"></button>
+            <button class="indicator-button-cards-3"></button>
+            <button class="indicator-button-cards-4"></button>
+            <button class="indicator-button-cards-5"></button>
         </div>
 
         <!-- Offers Cards Section -->
@@ -172,7 +228,7 @@
 
             <div class="american-heroes-card">
                 <h2>American Heroes</h2>
-                <p class="offers-deal">Explore limited-time offers on Tesla vehicles.</p>
+                <p class="offers-deal">$500 off for military, first responders, healthcare, teachers, and students.</p>
                 <button class="learn-more"><a href="https://www.tesla.com/american-heroes">Learn More</a></button>
                 
             </div>
@@ -192,9 +248,14 @@
                 
                 <h2>Travel Safer, Arrive Refreshed</h2>
                 <h3>Full Self-Driving (Supervised)</h3>
-                <button class="demo-fsd"><a href="https://www.tesla.com/drive">Demo FSD (Supervised)</a></button>
-                <button class="learn-more"><a href="https://www.tesla.com/fsd/safety">Learn More</a></button>
-                
+                <div class="demo-fsd-buttons">
+
+
+                    <button class="demo-fsd"><a href="https://www.tesla.com/drive">Demo FSD (Supervised)</a></button>
+                    <button class="learn-more"><a href="https://www.tesla.com/fsd/safety">Learn More</a></button>
+                </div>
+
+                    
             </div>
 
             <div class="features-card">
@@ -206,47 +267,108 @@
             
         </div>
 
-        <div class="alt-power-section">
+    </section>
 
+    <!-- Charging Section -->
 
-            <div class="alt-power-cards">
+    <section class="charging-locations">
 
-                <div class="solar-panel-card">
+        <div class="map"></div>
 
-                <h2>Solar Panels</h2>
-                <h3>Power Your Home and Reduce Your Electricity Bills</h3>
-                <button class="learn-more"><a href="https://www.tesla.com/energy/design?poi=solarpanels">Order Now</a></button>
-                <button class="learn-more"><a href="https://www.tesla.com/solarpanels">Learn More</a></button>
+        <div class="charging-locations-bottom">
 
-            </div>
-            
-            <div class="powerwall-card">
-
-
-                <h2>Powerwall</h2>
-                <h3>Keep Your Lights On During Power Outages</h3>
-                <button class="learn-more"><a href="https://www.tesla.com/powerwall/design">Order Now</a></button>
-                <button class="learn-more"><a href="https://www.tesla.com/powerwall">Learn More</a></button>
-
+            <div class="charging-locations-title">
+                <h2>Find Your Charge</h2>
+                <p class="charging-locations-description">View the network of Tesla Superchargers and Destination Chargers available near you.</p>
+                <div class="charging-locations-buttons">
+                    <button class="view-network"><a href="https://www.tesla.com/findus/list">View Network</a></button>
+                    <button class="charge-learn-more"><a href="https://www.tesla.com/charging">Learn More</a></button>
+                </div>
             </div>
 
+            <div class="charge-stats">
 
 
+            <div class="supercharger">
+
+                <div class="charging-map-component__icon"><h2>36,730</h2>
+                    <img class="charging-map-component__icon-image" 
+                    src="data:image/svg+xml,%3csvg%20width='24'%20height='24'%20viewBox='0%200%2024%2024'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20clip-path='url(%23clip0_6652_69068)'%3e%3crect%20x='0.230769'%20y='0.230769'%20width='23.5385'%20height='23.5385'%20rx='11.7692'%20fill='%23FF3A3A'/%3e%3crect%20x='0.230769'%20y='0.230769'%20width='23.5385'%20height='23.5385'%20rx='11.7692'%20stroke='%23F4F4F4'%20stroke-width='0.461538'/%3e%3cpath%20fill-rule='evenodd'%20clip-rule='evenodd'%20d='M12.334%2010.4486C12.334%2010.5953%2012.4533%2010.7143%2012.6005%2010.7143H16.5106C16.7162%2010.7143%2016.8443%2010.9366%2016.7409%2011.1138L12.1684%2018.943C12.0315%2019.1775%2011.6717%2019.0806%2011.6717%2018.8093V13.5524C11.6717%2013.4057%2011.5524%2013.2867%2011.4053%2013.2867H7.49048C7.28489%2013.2867%207.15676%2013.0643%207.26027%2012.8872L11.8374%205.05402C11.9743%204.81961%2012.334%204.91651%2012.334%205.18781V10.4486Z'%20fill='white'/%3e%3c/g%3e%3cdefs%3e%3cclipPath%20id='clip0_6652_69068'%3e%3crect%20width='24'%20height='24'%20fill='white'/%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e">
+                    
+                    <div class="label">Superchargers</div>
+                </div>
+
+            </div>
+
+            <div class="destination-chargers">
+
+                <div class="charging-map-component__icon"><h2>6,591</h2>
+
+                    <img class="charging-map-component__icon-image" 
+                    src="data:image/svg+xml,%3csvg%20width='24'%20height='24'%20viewBox='0%200%2024%2024'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20clip-path='url(%23clip0_6652_69066)'%3e%3crect%20x='0.230769'%20y='0.230769'%20width='23.5385'%20height='23.5385'%20rx='11.7692'%20fill='%23929292'/%3e%3crect%20x='0.230769'%20y='0.230769'%20width='23.5385'%20height='23.5385'%20rx='11.7692'%20stroke='%23F4F4F4'%20stroke-width='0.461538'/%3e%3cpath%20d='M9.52347%205.45362L9.52347%207.75362H8.10808C7.71724%207.75362%207.40039%208.07047%207.40039%208.46132V13.4152C7.40039%2014.9786%208.66777%2016.2459%2010.2312%2016.2459H13.7696C15.333%2016.2459%2016.6004%2014.9786%2016.6004%2013.4152V8.46131C16.6004%208.07047%2016.2836%207.75362%2015.8927%207.75362H14.4773V5.45362C14.4773%205.16049%2014.2397%204.92285%2013.9465%204.92285C13.6534%204.92285%2013.4158%205.16049%2013.4158%205.45362V7.75362L10.585%207.75362V5.45362C10.585%205.16049%2010.3474%204.92285%2010.0542%204.92285C9.7611%204.92285%209.52347%205.16049%209.52347%205.45362ZM9.87732%2018.369C9.87732%2018.7599%2010.1942%2019.0767%2010.585%2019.0767H13.4158C13.8066%2019.0767%2014.1235%2018.7599%2014.1235%2018.369V17.1306C14.1235%2017.0328%2014.0443%2016.9536%2013.9465%2016.9536H10.0542C9.95653%2016.9536%209.87732%2017.0328%209.87732%2017.1306L9.87732%2018.369Z'%20fill='white'/%3e%3c/g%3e%3cdefs%3e%3cclipPath%20id='clip0_6652_69066'%3e%3crect%20width='24'%20height='24'%20fill='white'/%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e">
+                    
+                    
+                    <div class="label">Destination Chargers</div>
+
+                </div>
                 
-
-                <h2>Alt-Power</h2>
-                <h3>Power to All</h3>
-                <button class="learn-more"><a href="https://www.tesla.com/alt-power">Learn More</a></button>
+            </div>
 
             </div>
 
+        </div>
 
-        </div>    
-            
+    </section>
+
+    <!-- Alt Power Section -->
+
+    
+    <section class="alt-power-section">
+
+        <!-- alt power cards -->
+
+        <div class="alt-power-cards">
+
+            <div class="alt-power-card solar-panel-card">
+                
+                <div class="card-bottom">
+                    <h2>Solar Panels</h2>
+                    <h4 class="card-subtitle">Power Your Home and Reduce Your Electricity Bills</h4>
+                    <div class="card-buttons">
+                        <a class="btn btn-primary" href="https://www.tesla.com/energy/design?poi=solarpanels">Order Now</a>
+                        <a class="btn btn-secondary" href="https://www.tesla.com/solarpanels">Learn More</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="alt-power-card powerwall-card">
+                
+                <div class="card-bottom">
+                    <h2>Powerwall</h2>
+                    <h4 class="card-subtitle">Keep Your Lights On During Power Outages</h4>
+                    <div class="card-buttons">
+                        <a class="btn btn-primary" href="https://www.tesla.com/powerwall/design">Order Now</a>
+                        <a class="btn btn-secondary" href="https://www.tesla.com/powerwall">Learn More</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
 
 
+        <div class="alt-power-arrow-buttons">
+            <button class="arrow-button-alt-power-right">
+                <svg class="tds-icon tds-icon-chevron-90" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" d="m8.943 19.78 7.213-7.232a.75.75 0 0 0 0-1.06L8.906 4.22a.75.75 0 0 0-1.062 1.06l6.721 6.739-6.684 6.701a.75.75 0 0 0 1.062 1.06"></path></svg>
+            </button>
+        </div>
 
-
+        <div class="indicator-buttons-cards">
+            <button class="indicator-button-cards-1"></button>
+            <button class="indicator-button-cards-2"></button>
+            <button class="indicator-button-cards-3"></button>
+            <button class="indicator-button-cards-4"></button>
+            <button class="indicator-button-cards-5"></button>
+        </div>
 
     </section>
 
@@ -259,20 +381,22 @@
         <div class="footer-content">
 
 
-            
+            <!-- Footer Note -->
 
             
             <div class="note">
 
-                <p>1 Price reflects monthly subscription, subject to terms and conditions. Price and feature availability subject to change.</p>
+                <p><sup>1</sup> Price reflects monthly subscription, subject to terms and conditions. Price and feature availability subject to change.</p>
                 
             </div>
 
 
+            <!-- Footer Links -->
+
             <div class="footer-links">
 
                 <ul>
-                    <li><a href="https://www.tesla.com/about">Tesla c 2026</a></li>
+                    <li><a href="https://www.tesla.com/about">Tesla &copy; 2026</a></li>
                     <li><a href="https://www.tesla.com/legal">Privacy & Legal</a></li>
                     <li><a href="https://service.tesla.com/en-US/vin-recall-search">Vehicle Recalls</a></li>
                     <li><a href="https://www.tesla.com/contact">Contact</a></li>
@@ -290,6 +414,8 @@
             
         </div>
 
+        <!-- Sticky Question Bar -->
+
 
         <div class="sticky-question-bar">
 
@@ -297,29 +423,39 @@
             <div class="question-bar-content">
 
 
+                <!-- Question Bar Form -->
+
                 <div class="question-bar-form">
 
-                    <button class="ask-question">Ask a Question?
-
-
+                    <button class="ask-question">
+                        <svg class="tds-icon tds-icon-message-filled cua-chat--chat-expanded__icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style="color: rgb(92, 94, 98);"><path fill="currentColor" d="M19.5 4h-15A2.5 2.5 0 0 0 2 6.5v9A2.5 2.5 0 0 0 4.5 18H6v2.07a.928.928 0 0 0 1.507.725l3.22-2.576A1 1 0 0 1 11.35 18h8.15a2.5 2.5 0 0 0 2.5-2.5v-9A2.5 2.5 0 0 0 19.5 4M8 12a1 1 0 1 1 0-2 1 1 0 0 1 0 2m4 0a1 1 0 1 1 0-2 1 1 0 0 1 0 2m4 0a1 1 0 1 1 0-2 1 1 0 0 1 0 2"></path></svg>
+                        Ask a Question?
                     </button>
 
                     <form>
 
                         <input type="text" placeholder="What's pet mode?">
-
+                        <button type="submit">
+                            <svg class="tds-icon tds-icon-arrow" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style="color: rgb(255, 255, 255);"><path fill="currentColor" d="M18.78 10.53a.747.747 0 0 1-1.06 0l-4.974-4.97.004 14.69a.75.75 0 0 1-1.5 0l-.004-14.69-4.966 4.96a.75.75 0 1 1-1.06-1.06l6.246-6.241a.75.75 0 0 1 1.06 0l6.254 6.25a.75.75 0 0 1 0 1.06z"></path></svg>
+                        </button>
 
 
                     </form>
                 </div>
 
-                <div class="test-drive-button>
+                <!-- Test Drive Button -->
+
+                <div class="test-drive-button">
 
 
                     
 
-                    <button class="test-drive"><a href="https://www.tesla.com/drive">Schedule a Drive Today</a></button>
-
+                    <a class="test-drive" href="https://www.tesla.com/drive">
+                        <svg class="tds-icon tds-icon-steering-wheel" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                            <path fill="currentColor" fill-rule="evenodd" d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20m0 1.5a8.5 8.5 0 0 1 8.43 7.5H15.6a3.75 3.75 0 0 0-2.85-2.85V3.57a8.6 8.6 0 0 1-.75-.07m-.75.07v4.58A3.75 3.75 0 0 0 8.4 11H3.57A8.5 8.5 0 0 1 11.25 3.57M3.57 12.75H8.4a3.75 3.75 0 0 0 2.85 2.85v4.83a8.5 8.5 0 0 1-7.68-7.68m9.18 7.68V15.6a3.75 3.75 0 0 0 2.85-2.85h4.83a8.5 8.5 0 0 1-7.68 7.68M12 9.75a2.25 2.25 0 1 0 0 4.5 2.25 2.25 0 0 0 0-4.5" clip-rule="evenodd"/>
+                        </svg>
+                        <span>Schedule a Drive Today</span>
+                    </a>
 
                 </div>
 
